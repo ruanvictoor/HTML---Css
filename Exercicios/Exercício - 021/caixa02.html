@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            text-align: justify;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: maroon;
+            box-shadow: 2px 2px 7px 1px rgb(27, 0, 0);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            background-color: rgb(10, 10, 10) 
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px 0px;
+            box-shadow: 2px 2px 7px 1px rgba(119, 136, 153, 0.479);
+
+        }
+
+        article {
+            background-color: lightslategray;
+            padding: 5px;
+         }
+
+         article > aside {
+             background-color: rgb(87, 99, 112);
+         }
+
+         footer {
+             background-color: black;
+             color: white;
+             text-align: center;
+             padding: 1px;
+             margin: 0px;
+         }
+    </style>
+</head>
+<body>
+     <header>
+         <h1>Meu Site</h1>
+         <nav>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+         </nav>
+     </header>
+     <main>
+         <section id="assuntos">
+             <p>Esportes Política Tecnológia </p>
+         </section>
+         <section id="noticias">
+             <article>
+                 <h2>Noticias sobre o Brasil</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aut aliquid a aliquam ratione et, pariatur maxime culpa unde adipisci. Quidem quibusdam dolor, perspiciatis atque iste maxime nostrum quod quae?</p>
+                 <aside>
+                     <p>Artigo escrito por Ruan Victor</p>
+                 </aside>
+
+             </article>
+         </section>
+     </main>
+     <footer>
+         Desenvolvido por Curso Em Vídeo
+    </footer>
+</body>
+</html>
